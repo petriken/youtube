@@ -1,0 +1,20 @@
+.notifications {
+    position: fixed;
+    visibility: hidden;
+    z-index: 10;
+    width: 100%;
+    max-width: 25%;
+    right: 20px;
+    top: 20px;
+    text-align: left;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #ACE17F;
+    color: #447C13;
+
+}
+
+.notifications:after{
+    display: inline-block;
+    content: "\00d7";
+}
