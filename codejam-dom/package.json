@@ -1,0 +1,28 @@
+{
+  "name": "codejam-dom",
+  "version": "1.0.0",
+  "description": "codejam-dom",
+  "main": "notifications/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rolling-scopes-school/petriken-2018Q3/tree/CodeJam-dom/codejam-dom"
+  },
+  "keywords": [
+    "codejam-dom"
+  ],
+  "author": "Stashukevich Piotr",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0"
+  },
+  "eslintConfig": {
+    "extends": "airbnb-base",
+    "env": {
+      "browser": true
+    }
+  }
+}
