@@ -1,26 +1,10 @@
 class DrawMovie {
     makeMovieBlock(data) {
       const fragment = document.createDocumentFragment();
-      // let newsCount = (data.length >= 15) ? 15 : data.length;
+      
       const movieItem = document.querySelector(".result-temp");
-      // console.log(document.querySelector(".result-temp"));
-      // for (let i = 0; i < newsCount; i++){
-      // const item = data[i];
-  
-  
-  
-      data.forEach((item) => {
-  
-        // const id = item.id.videoId;
-  
-        // const totalResults = item.parentElement.pageInfo.totalResults;
-        // pageInfo.totalResults
-        // if (totalResults < 1) {
-        //   alert('Sorry, no video for your request.');
-        //   throw Error('Sorry, no video for your request.');
-        // }
-  
-  
+        
+      data.forEach((item) => {      
         const block = movieItem.content.cloneNode(true);
   
         const title = block.querySelector(".title");
@@ -42,8 +26,6 @@ class DrawMovie {
         console.log(rate);
       });
   
-      // const movieBlock = document.querySelector(".movie-block");
-      // movieBlock.appendChild(fragment);
       document.querySelector(".movie-block").innerHTML = '';
       document.querySelector(".movie-block").appendChild(fragment);
     }
