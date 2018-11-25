@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+/*  font-family: 'Raleway', sans-serif;  */
+  font-family: 'Jura', sans-serif;
+}
+
+body {
+  background-color: #2B2B2B;
+}
+
+.header__navigation {
+  margin: 0 auto;
+  padding-top: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  max-width: 1200px;
+  height: 75px;
+  /* background-color: #808080; */
+}
+
+.header__navigation-request {
+  min-width: 150px;
+  width: 33%;
+/*  border-radius: 5px;*/
+  
+}
+
+#header__navigation-request-input {
+  padding: 7px;
+  background-color: #f6f6f6;
+/*  border-radius: 5px;*/
+}
+
+.header__navigation-bottom {
+  margin-left: 3%;
+}
+
+.header__navigation-bottom-submit {
+  padding: 7px;
+  margin-top: 3px;
+  
+  text-decoration: none;
+  color: #000000;
+  background-color: #f6f6f6;
+/*  border-radius: 5px;*/
+}
+
+.header__navigation-bottom-submit:hover {
+  transform: scale(1.1);
+}
+
+.movie-block {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+/*
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+*/
+  /* background-color: #808080; */
+}
+
+.result {
+  position: relative;
+  width: 23%;
+  min-width: 300px;
+  min-height: 500px;
+  margin: 4%;
+/*  padding: 10px;*/
+  display: inline-block;
+  float: left;
+  background-color: #fafafa;
+}
+
+.title {
+  position: absolute;
+  bottom: 51%;
+  text-decoration: none;
+  font-weight: bold;
+/*  font-size: 1.3em;*/
+  color: #ff0000;
+}
+
+.preview {
+  position: absolute;
+  margin: 0;
+  bottom: 0;
+  height: 50%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+/*
+.result-item-url {
+  background-color: #696969;
+  opacity: 0.5;
+}
+*/
+
+.result-item {
+  height: 10%;
+  margin: 10px;
+/*  overflow: auto;*/
+  word-wrap: break-word;
+}
+
+.result-item-description-warp {
+  height: 25%;
+  margin: 10px;
+  word-wrap: break-word;
+  overflow: hidden;
+  font-weight: 300;
+  
+}
+
+.result-item-author {
+  position: absolute;
+  top: 25%;
+  margin: 10px;
+  word-wrap: break-word;
+}
+
+.result-item-date {
+  position: absolute;
+  top: 32%;
+  margin: 10px;
+  word-wrap: break-word;
+}
+
+.result-item-rate {
+  position: absolute;
+  top: 35%;
+  margin: 10px;
+  word-wrap: break-word;
+}
+
+/*
+.description, .author, .date, .rate {
+  font-style: italic;
+}*/
