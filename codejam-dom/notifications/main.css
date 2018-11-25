@@ -24,16 +24,18 @@
   margin: 0;
 }
 
-.close {
+#close {
   padding-left: 10px;
   text-decoration: none;
+  font-size: 1.5em;
 }
 
-.close::after {
+#close::after {
   content: "\00d7";
 }
 
 .first-notif {
+  height: 100px;
   padding: 10px;
   font-size: 1.5em;
   border: 1px solid #274111;
@@ -106,3 +108,7 @@
   border-radius: 50%; 
   border: 1px solid #274111;
 }
+
+/* .checkbox:hover {
+  border: 1px, solid, purple;
+} */
