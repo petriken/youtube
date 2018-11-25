@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Youtube client</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Jura:300,400,500,600,700&amp;subset=cyrillic" rel="stylesheet">
+  <!--  <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,400i,700" rel="stylesheet">-->
+</head>
+
+<body>
+  <header class="header">
+    <nav class="header__navigation">
+      <div class="header__navigation-request">
+        <input id="header__navigation-request-input" type="text" name="Search" placeholder="enter search request" size="50" required>
+      </div>
+      <div class="header__navigation-bottom">
+        <button class="header__navigation-bottom-submit"><a class="header__navigation-bottom-submit" href="#"><b>Search movie</b></a>
+        </button>
+      </div>
+      <div class=""></div>
+    </nav>
+    <main class="wrapper">
+      <div class="movie-block">
+      </div>
+    </main>
+    <footer>
+
+    </footer>
+    <template class="result-temp">
+      <div class="result">
+        <div class="preview"></div>
+        <div class="result-item-description-warp"><b>Description: </b><span class="description"></span>
+        </div>
+        <div class="result-item-author"><b>author: </b><span class="author"></span>
+        </div>
+        <div class="result-item-date"><b>date: </b><span class="date"></span>
+        </div>
+        <div class="result-item-rate"><span class="rate"></span>
+        </div>
+        <div class="result-item">
+          <a href="#" class="title"></a>
+        </div>
+      </div>
+    </template>
+  </header>
+
+  <!-- title (clickable link to YouTube)
+clip preview as a picture
+description
+author
+publication date
+view rate (count) -->
+
+  <!-- const q = document.getElementById('header__navigation-request-input').value; -->
+
+  <script src="js/full.js"></script>
+  <!-- <script src="js/movieAPILoader.js"></script>
+  <!-- <script src="js/source.js"></script> -->
+  <!-- <script src="js/main.js"></script> -->
+</body>
+
+</html>
