@@ -4,6 +4,7 @@
   "description": "",
   "main": "js/main.js",
   "scripts": {
+    "lint": "eslint js/*.js",
     "test": "mocha test.js"
   },
   "repository": {
