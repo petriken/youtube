@@ -5,7 +5,7 @@
   "main": "notifications/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint js/*.js"
+    "lint": "eslint notifications/*.js"
   },
   "repository": {
     "type": "git",
