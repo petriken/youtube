@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Youtube client</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/main.css" >
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Jura:300,400,500,600,700&amp;subset=cyrillic" rel="stylesheet">
 </head>
@@ -15,10 +15,10 @@
   <header class="header">
     <nav class="header__navigation">
       <div class="header__navigation-request">
-        <input id="header__navigation-request-input" type="text" name="Search" placeholder="enter search request" size="50" required>
+        <input id="header__navigation-request-input" type="text" name="Search" placeholder="enter search request" required>
       </div>
       <div class="header__navigation-bottom">
-        <button class="header__navigation-bottom-submit"><a class="header__navigation-bottom-submit" href="#"><b>Search movie</b></a>
+        <button class="header__navigation-bottom-submit"><a class="header__navigation-bottom-submit" href="#"><b>Search</b></a>
         </button>
       </div>
       <div class=""></div>
@@ -26,6 +26,10 @@
     <main class="wrapper">
       <div class="movie-block">
       </div>
+      <div class="wrapper__arrow">
+          <div class="wrapper__arrow_left-arrow"><i class="fas fa-angle-left"></i></div>
+          <div class="wrapper__arrow_right-arrow"><i class="fas fa-angle-right"></i></div>
+        </div>
     </main>
     <footer>
 
@@ -39,7 +43,7 @@
         </div>
         <div class="result-item-date"><b>date: </b><span class="date"></span>
         </div>
-        <div class="result-item-rate"><span class="rate"></span>
+        <div class="result-item-rate"><b>rate: </b><span class="rate"></span>
         </div>
         <div class="result-item">
           <a href="#" class="title"></a>
@@ -48,9 +52,10 @@
     </template>
   </header>
 
-  <script src="js/movieAPILoader.js"></script>
-  <script src="js/drawMovie.js"></script>
-  <script src="js/main.js"></script>
+  <!-- <script src="js/movieAPILoader.js"></script>
+  <script src="js/drawMovie.js"></script> 
+  <script src="js/main.js"></script> -->
+  <script src="dist/main.bundle.js"></script>
 </body>
 
 </html>
